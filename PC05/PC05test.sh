@@ -8,7 +8,7 @@
 
 # Variables for the script
 #SCRIPT_OUT="puzzle_test.out"
-SCRIPT_OUT="/wrk/puzzle_test.out"
+SCRIPT_OUT="./wrk/puzzle_test.out"
 
 
 # Create folders for input/output files 
