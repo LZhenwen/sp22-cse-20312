@@ -218,10 +218,10 @@ echo "Score: $POINTS / $WORTH"
 echo "View $SCRIPT_OUT for student test details"
 
 # delete folders if empty
-if [ ! "$(ls -A wrk)" ]; then
-	rm -r wrk
-fi
-
-if [ ! "$(ls -A ref)" ]; then
-	rm -r ref
-fi
+#if [ ! "$(ls -A wrk)" ]; then
+#	rm -r wrk
+#fi
+#
+#if [ ! "$(ls -A ref)" ]; then
+#	rm -r ref
+#fi
