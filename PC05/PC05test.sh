@@ -9,7 +9,7 @@
 # Variables for the script
 SCRIPT_OUT="puzzle_test.out"
 
-make initialize > /dev/null
+
 
 # Create folders for input/output files 
 mkdir -p wrk
@@ -73,6 +73,7 @@ echo "Download completed"
 # Compile PC05
 echo "Testing ..." >> $SCRIPT_OUT 
 make clean > /dev/null
+make initialize > /dev/null
 make PC05 > /dev/null
 
 # For each test, run PC05 with the puzzleX.txt input files and 
